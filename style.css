@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(113, 111, 111);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background-color: rgb(236, 245, 245);
+}
+
+body{
+    margin-top: 48px;
+    background-image: url(/Image/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size: 240%;
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(60, 56, 60)
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav li{
+    list-style-type: none;
+    padding: 15px 50px;
+    font-family:'Verdana';
+    font-weight: bold;
+}
+
+#inicio{
+    scroll-margin-top:120px
+}
+
+#nombre{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(225, 232, 238);
+}
+
+#inicio img{
+    max-width: 100%;
+    padding: 0;
+    width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+}
+
+#seccion-1, #seccion-2, #seccion-estudios, #seccion-contacto{
+    scroll-margin-top: 55px;
+    margin:80px 80px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.401);
+    padding: 50px 50px;
+    align-items: center;
+}
+
+.titulo-seccion{
+    color: aliceblue;
+    margin-top: -15px;
+}
+
+.parrafo-seccion, #seccion-1 p, .seccion p{
+    color: rgb(250, 253, 255);
+    font-size: 17px;
+}
+
+.seccion li{
+    color:rgb(250, 253, 255);
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.seccion .sub-puestos{
+    margin-top: -175px;
+    margin-left: 250px;
+}
+
+.sub-puestos h1, .sub-puestos-2 h1{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sub-puestos h2, .sub-puestos-2 h2{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.sub-puestos h3,.sub-puestos h4, .sub-puestos-2 h3{
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.sub-puestos h5{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.descripcion-1{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.descripcion{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.sub-puestos-2{
+    margin-top: -65px;
+    color: aliceblue;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+}
+
+#seccion-contacto, #seccion-contacto h1{
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+#seccion-contacto a img{
+    width: 70px;
+    padding: 30px;
+}
+
+#seccion-contacto p span{
+    font-style: italic;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
