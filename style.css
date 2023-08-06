@@ -134,7 +134,7 @@ a{
 #seccion-contacto, #seccion-contacto h1{
     justify-content: center;
     text-align: center;
-    color: aliceblue;
+    color: red;
 }
 
 #seccion-contacto a img{
